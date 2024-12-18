@@ -7,6 +7,7 @@
 #include "ejercicio1.h"
 #include "ejercicio2.h"
 #include "ejercicio3.h"
+#include "ejercicio4.h"
 
 
 int main() {
@@ -16,7 +17,8 @@ int main() {
     ejercicio2();
     std::cout << "Ejercicio 3: Algoritmos" << std::endl;
     ejercicio3();
-
+    std::cout << "Ejercicio 4: Calculo numerico" << std::endl;
+    ejercicio4();
 
     return 0;
 }
