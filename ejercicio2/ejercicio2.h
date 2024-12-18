@@ -7,9 +7,7 @@
 
 
 
-class ejercicio2 {
-
-};
+void ejercicio2();
 
 
 
