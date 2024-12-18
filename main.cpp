@@ -6,6 +6,7 @@
 
 #include "ejercicio1.h"
 #include "ejercicio2.h"
+#include "ejercicio3.h"
 
 
 int main() {
@@ -13,6 +14,9 @@ int main() {
     ejercicio1();
     std::cout << "Ejercicio 2: Contenedores Estandar y Secuencias" << std::endl;
     ejercicio2();
+    std::cout << "Ejercicio 3: Algoritmos" << std::endl;
+    ejercicio3();
+
 
     return 0;
 }
