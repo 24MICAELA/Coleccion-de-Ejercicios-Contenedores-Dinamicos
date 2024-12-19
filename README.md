@@ -3,23 +3,22 @@
 Link del repositorio: https://github.com/24MICAELA/Contenedores-Dinamicos.git
 
 ## Enunciado
-- **Ejercicio 1**
-Vector e Iteradores Crea un programa que añada elementos a un vector de enteros mediante el uso del método push_back. Luego, utiliza un iterador para recorrer y mostrar cada elemento del vector.
+- **Ejercicio 1**: Vector e Iteradores Crea un programa que añada elementos a un vector de enteros mediante el uso del método push_back. Luego, utiliza un iterador para recorrer y mostrar cada elemento del vector.
 
-- Ejercicio 2: Contenedores Estándar y Secuencias Realiza un programa que utilice el contenedor estándar list para almacenar una secuencia de números decimales. Luego, crea un adaptador de secuencia stack para este contenedor. Muestra cómo funcionan las operaciones push, pop y top en esta pila.
+- **Ejercicio 2**: Contenedores Estándar y Secuencias Realiza un programa que utilice el contenedor estándar list para almacenar una secuencia de números decimales. Luego, crea un adaptador de secuencia stack para este contenedor. Muestra cómo funcionan las operaciones push, pop y top en esta pila.
 
-- Ejercicio 3: Algoritmos Crea un programa que tenga un vector de enteros. Luego, utiliza la función sort de la biblioteca de algoritmos para ordenar los elementos del vector. Además, utiliza la función max_element para encontrar el elemento más grande del vector.
+- **Ejercicio 3**: Algoritmos Crea un programa que tenga un vector de enteros. Luego, utiliza la función sort de la biblioteca de algoritmos para ordenar los elementos del vector. Además, utiliza la función max_element para encontrar el elemento más grande del vector.
 
-- Ejercicio 4: Cálculo numérico Desarrolla un programa que utilice la clase valarray para realizar operaciones matemáticas. Crea un valarray de números decimales e implementa operaciones como la suma, la resta, la multiplicación y la división.
+- **Ejercicio 4**: Cálculo numérico Desarrolla un programa que utilice la clase valarray para realizar operaciones matemáticas. Crea un valarray de números decimales e implementa operaciones como la suma, la resta, la multiplicación y la división.
 
-- Ejercicio 5: C++ Moderno Implementa un programa que utilice expresiones lambda para definir una función que devuelva el cuadrado de un número. Adicionalmente, utiliza la inferencia de tipos auto para declarar variables. Implementa un bucle for_each para recorrer un contenedor y usa punteros inteligentes para gestionar la memoria.
+- **Ejercicio 5**: C++ Moderno Implementa un programa que utilice expresiones lambda para definir una función que devuelva el cuadrado de un número. Adicionalmente, utiliza la inferencia de tipos auto para declarar variables. Implementa un bucle for_each para recorrer un contenedor y usa punteros inteligentes para gestionar la memoria.
 
-- Ejercicio 6: Introducción a Boost Instala la biblioteca Boost en tu entorno de desarrollo CLion. Luego, crea un programa que utilice la función boost::lexical_cast para convertir una cadena de caracteres en un número entero. Asegúrate de manejar cualquier posible excepción que pueda lanzar boost::lexical_cast.
+- **Ejercicio 6**: Introducción a Boost Instala la biblioteca Boost en tu entorno de desarrollo CLion. Luego, crea un programa que utilice la función boost::lexical_cast para convertir una cadena de caracteres en un número entero. Asegúrate de manejar cualquier posible excepción que pueda lanzar boost::lexical_cast.
 
 ## Propuesta de Solución
 A continuación, se muestra una guía paso a paso de cómo podrías resolver estos ejercicios en CLion:
 
-Ejercicio 1: Vector e Iteradores
+**Ejercicio 1: Vector e Iteradores**
 
 ```cpp
 #include <iostream>
@@ -36,7 +35,7 @@ int main() {
 }
 ```
 
-Ejercicio 2: Contenedores Estándar y Secuencias
+**Ejercicio 2: Contenedores Estándar y Secuencias**
 
 ```cpp
 #include <iostream>
@@ -56,7 +55,7 @@ int main() {
 }
 ```
 
-Ejercicio 3: Algoritmos
+**Ejercicio 3: Algoritmos**
 
 ```cpp
 #include <iostream>
@@ -78,7 +77,7 @@ int main() {
 }
 ```
 
-Ejercicio 4: Cálculo numérico
+**Ejercicio 4: Cálculo numérico**
 
 ```cpp
 #include <iostream>
@@ -102,7 +101,7 @@ int main() {
 }
 ```
 
-Ejercicio 5: C++ Moderno
+**Ejercicio 5: C++ Moderno**
 
 ```cpp
 #include <iostream>
@@ -126,7 +125,7 @@ int main() {
 }
 ```
 
-Ejercicio 6: Introducción a Boost
+**Ejercicio 6: Introducción a Boost**
 
 ```cpp
 #include <iostream>
@@ -149,6 +148,60 @@ int main() {
 Cada uno de estos códigos debe ser pegado en la función main() de tu programa en CLion. Asegúrate de tener las librerías necesarias instaladas y correctamente configuradas en tu entorno de CLion. También recuerda que para el último ejercicio necesitas tener instalada la biblioteca Boost.
 
 ## Instalación de la biblioteca Boost
+
+1. Clonar el Repositorio
+ 
+Abre una terminal en tu entorno Linux.
+
+Ejecuta el siguiente comando para clonar el repositorio:
+
+```bash
+git clone https://github.com/tu-usuario/nombre-repositorio.git
+```
+(Reemplaza tu-usuario y nombre-repositorio con los detalles de tu repositorio).
+
+Cambia al directorio del proyecto:
+
+```bash
+cd nombre-repositorio
+```
+
+2. Instalación de Boost
+   
+Para ejecutar el proyecto, es imprescindible instalar la biblioteca Boost:
+
+En la terminal, ejecuta el siguiente comando:
+
+```
+sudo apt install libboost-all-dev
+```
+
+Verifica que Boost esté instalado correctamente con:
+
+```
+dpkg-query -L libboost-all-dev
+```
+
+3. Compilación del Programa
+   
+Para compilar el programa, debes incluir todos los archivos .cpp necesarios. Sigue estos pasos:
+
+Desde el directorio raíz del proyecto, ejecuta el siguiente comando:
+
+```bash
+g++ -o programa main.cpp ./Ejercicio6/boost.cpp ./Ejercicio1/vector_iteradores.cpp ./Ejercicio2/cont_estandar_secuencias.cpp ./Ejercicio3/algoritmos.cpp ./Ejercicio4/calculo_numerico.cpp ./Ejercicio5/moderno.cpp
+```
+
+Si los archivos .cpp están en rutas diferentes, asegúrate de que las rutas sean correctas y actualiza el comando en consecuencia.
+
+4. Ejecución del Programa
+
+Una vez compilado, ejecuta el programa con:
+
+```
+./programa
+```
+
 
 
 
