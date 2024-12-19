@@ -1,9 +1,10 @@
 # Coleccion-de-Ejercicios-Contenedores-Dinamicos
 
-Link al repositorio: https://github.com/24MICAELA/Contenedores-Dinamicos.git
+Link del repositorio: https://github.com/24MICAELA/Contenedores-Dinamicos.git
 
 ## Enunciado
-- Ejercicio 1: Vector e Iteradores Crea un programa que añada elementos a un vector de enteros mediante el uso del método push_back. Luego, utiliza un iterador para recorrer y mostrar cada elemento del vector.
+- **Ejercicio 1**
+Vector e Iteradores Crea un programa que añada elementos a un vector de enteros mediante el uso del método push_back. Luego, utiliza un iterador para recorrer y mostrar cada elemento del vector.
 
 - Ejercicio 2: Contenedores Estándar y Secuencias Realiza un programa que utilice el contenedor estándar list para almacenar una secuencia de números decimales. Luego, crea un adaptador de secuencia stack para este contenedor. Muestra cómo funcionan las operaciones push, pop y top en esta pila.
 
@@ -146,6 +147,10 @@ int main() {
 ```
 
 Cada uno de estos códigos debe ser pegado en la función main() de tu programa en CLion. Asegúrate de tener las librerías necesarias instaladas y correctamente configuradas en tu entorno de CLion. También recuerda que para el último ejercicio necesitas tener instalada la biblioteca Boost.
+
+## Instalación de la biblioteca Boost
+
+
 
 
 
