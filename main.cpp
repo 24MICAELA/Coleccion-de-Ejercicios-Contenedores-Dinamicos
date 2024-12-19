@@ -5,12 +5,12 @@
 #include <locale>
 #include <iostream>
 
-#include "ejercicio1.h"
-#include "ejercicio2.h"
-#include "ejercicio3.h"
-#include "ejercicio4.h"
-#include "ejercicio5.h"
-#include "ejercicio6.h"
+#include "ejercicio1/ejercicio1.h"
+#include "ejercicio2/ejercicio2.h"
+#include "ejercicio3/ejercicio3.h"
+#include "ejercicio4/ejercicio4.h"
+#include "ejercicio5/ejercicio5.h"
+#include "ejercicio6/ejercicio6.h"
 
 int main() {
     std::cout << "Ejercicio 1: Vector e Iteradores" << std::endl;
