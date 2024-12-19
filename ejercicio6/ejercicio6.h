@@ -5,12 +5,6 @@
 #ifndef EJERCICIO6_H
 #define EJERCICIO6_H
 
+void ejercicio6();
 
-
-class ejercicio6 {
-
-};
-
-
-
-#endif //EJERCICIO6_H
+#endif // EJERCICIO6_H
